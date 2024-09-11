@@ -1,0 +1,9 @@
+# Definindo dois inteiros
+a = 5
+b = 3
+
+# Somando os inteiros
+soma = a + b
+
+# Exibindo o resultado
+print(soma)  
