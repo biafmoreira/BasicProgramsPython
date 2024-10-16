@@ -1,0 +1,10 @@
+n1 = int(input('digite um número: '))
+n2 = int(input('digite um número: '))
+
+soma = n1 + n2 
+subt = n1 - n2 
+div = n1 / n2
+mult = n1 * n2
+divinteira = n1 // n2
+
+print (f'{soma}, {subt}, {div}, {mult}, {divinteira}')
