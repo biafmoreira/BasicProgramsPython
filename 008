@@ -1,0 +1,5 @@
+dinheiroreal = float(input('Qual o valor (em real) você deseja convertar: '))
+
+conversao = dinheiroreal / 5.68
+
+print (f'esse é o valor em dolar que você possui: {conversao}')
