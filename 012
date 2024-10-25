@@ -1,0 +1,7 @@
+precoinicial = float (input ("insira o valor da compra: "))
+
+#30% de desconto = 0.3
+
+desconto = precoinicial - (precoinicial * 0.3)
+
+print (f'valor atual: {desconto:.2f}')
