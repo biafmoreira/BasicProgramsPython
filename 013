@@ -1,0 +1,11 @@
+minutosaconverter = int(input ("insira quantos minutos deseja converter: "))
+
+#calculo horas
+
+horas = minutosaconverter // 60
+
+#minutos restantes
+
+minutos = minutosaconverter % 60
+
+print (f'{horas} horas e {minutos} minutos')
