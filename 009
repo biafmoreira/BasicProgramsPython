@@ -1,0 +1,8 @@
+#área retângulo = base * altura
+
+base = float (input("insira o tamanho da base (em metros): "))
+altura = float (input("insira o tamanho da altura (em metros): "))
+
+area = base * altura
+
+print (f'resultado {area: .2f}')
