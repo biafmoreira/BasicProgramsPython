@@ -1,0 +1,6 @@
+peso = float (input ("insira seu peso (kg): "))
+altura = float (input ("insira sua altura (m):"))
+
+imc = peso / (altura ** 2)
+
+print (f'imc: {imc:.2f}')
