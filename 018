@@ -1,0 +1,7 @@
+#Faça um programa que converta metros para centímetros
+
+metros = float (input("Digite quantos metros você quer converter: "))
+
+conv = metros * 100
+
+print (f'A conversão de {metros} em centímetros é {conv}')
