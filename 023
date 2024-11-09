@@ -1,0 +1,7 @@
+a = int (input("Insira um número inteiro: "))
+b = int (input("Insira um número inteiro: "))
+
+contaUM = ((a*2) * (b/2))
+contaDOIS = ((a*3)+ b)
+
+print (f'Resultado: {contaUM}, {contaDOIS} ')
