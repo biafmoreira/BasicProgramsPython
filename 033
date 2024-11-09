@@ -1,0 +1,13 @@
+#Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato
+
+produt1 = float (input("Digite o preço do produto 1:"))
+produt2 = float (input("Digite o preço do produto 2:"))
+produt3 = float (input("Digite o preço do produto 3:"))
+
+
+if produt1 < produt2 and produt1 < produt3:
+    print (f'compre o produto de valor {produt1}')
+elif produt2 < produt1 and produt2 < produt3:
+    print (f'compre o produto de valor {produt2}')
+else:
+    print (f'compre o produto de valor {produt3}')
