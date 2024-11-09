@@ -1,0 +1,21 @@
+salario = float (input("Qual seu salário?: "))
+reajuste = float (input("Qual foi seu reajuste?: "))
+
+if salario <= 280.00:
+    reaj = salario * reajuste
+    novo_salario = reaj + salario
+    print (f'{novo_salario}')
+elif salario > 280.00 and salario < 700.00:
+    reaj = salario * reajuste
+    novo_salario = reaj + salario
+    print (f'{novo_salario}')
+elif salario > 700.00 and salario < 1.500:
+    reaj = salario * reajuste
+    novo_salario = reaj + salario
+    print (f'{novo_salario}')
+else:
+    reaj = salario * reajuste
+    novo_salario = reaj + salario
+    print (f'{novo_salario}')
+
+print (f'{salario}\n{reajuste}\n{novo_salario}')
