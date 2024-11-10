@@ -1,0 +1,50 @@
+'''Faça um programa que leia e valide as seguintes informações:
+Nome: maior que 3 caracteres;
+Idade: entre 0 e 150;
+Salário: maior que zero;
+Sexo: 'f' ou 'm';
+Estado Civil: 's', 'c', 'v', 'd';'''
+
+while True:
+    nome = input ("Insira seu nome: ")
+    if len(nome) < 3:
+        print ("Tamanho Iválido!")
+    else:
+        print ("Nome Válido!")
+        break
+
+while True:
+    idade= int(input("Insira a sua idade: "))
+    if idade < 0 or idade >150:
+        print ("Idade Inválida!")
+    else:
+        print ("Idade Válida")
+        break
+while True: 
+    salario = float (input("Qual o seu saário?:"))
+    if salario > 0:
+        print ("Salário Válido")
+        break
+    else:
+        print ("Salário inválido")
+
+while True:
+    sexo = input ("Qual o seu sexo? insira f para mulher e m para homem")
+    sexo = sexo.lower()
+    if sexo not in ["f", "m"]: 
+           #!= "f" and sexo != "m":
+        print("Informação inválida")
+    else:
+        print ("Informação válida")
+        break
+    
+while True:
+    estado_civil = input ("Qual é o seu estado cívil? s - solteiro \nc - casado \n v- viúvo\n d-divorciado)")
+    estado_civil = estado_civil.lower()
+    if estado_civil not in ["s", "c", "v", "d"]:
+        print ("Informação inválida!")
+    else:
+        print ("informação válida!")
+        break
+
+print ("cadastro realizado com sucesso!!!")
